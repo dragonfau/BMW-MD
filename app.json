@@ -1,5 +1,5 @@
 {
-  "name":"V-6-BMW-XMD",
+  "name":"Dragon bot",
   "description":"Deploy now your bot, Bmw was developed by Ibrahim Adams.Make sure you fill all valuables to avoid bot from sleeping. ",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/fd124f7e9271111c3bcc1.jpg",
@@ -10,7 +10,7 @@
     "PREFIX":
     {
       "description":"choose your prefix of bot",
-      "value":".",
+      "value":"*",
       "required":true
     },
     "AUTO_READ_STATUS":
@@ -64,26 +64,26 @@
 	"required" :true
     }  
 	  ,
-    "SESSION_ID":
+    "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiU0FGbVZoUkF6V09QSzY4MjNWL3NtNmtoV2l1OXo5bHVBZS8weFZMTUtGST0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoieHczZlExeUJtY1pJSjJFb242NFVuaS8xUXpCSnN5ZVFLYURKMzNRQkNpTT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJZQlVGWnd3M016ZTdLQUxNQVVOQjE0bTR0VFRobkR6STQ2RnFLZXRYQW5VPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJEWWM2RzVEWGdJdWY2dzdlUFhDSGZPN3hOVWQ3bUpHdENIQ20zbk9zeVNrPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IitJMmM2NGl2RWRNb0hMWHkvbmJITDExUDNnaDJEVHRyZ3JnWDJtTHJNWEE9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImVjZ3NWWGpUTzBBVDlBcnN0MHpNNk8xdGNmVmF4enk3WE8yNHFUT2w1RzQ9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQU12MEVRWUlYcGVjbEs3ZDJqaU04eE51N0l6VGI0L2NDZ3pHTkZrWTZIST0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiRTJKSlFQWThJbC9saUtLdlcxUFNYamx6K011Y2VGT0Nlc202TVhhT2ZXOD0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Im9xRzBJVTRzcEh0YUY1aCt5T2E5QjIraVZHem1EZ0NWMXFFN25tWUx1Vm1mM2ExNjJlU2J1UHpZcm9PdlM0akZGckFZK29wL0pwcXFpZ1pqa3h0R2pRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjQ3LCJhZHZTZWNyZXRLZXkiOiJib1lWeWcwZXJ3YVp1UGhPWWgrTDJpemgrMWhVTURzUUVFRmo0TUlXc1hFPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJjNXAyWUxyYlRSR1F4Q0EwN1FKTk5BIiwicGhvbmVJZCI6ImQ2Yzk0N2FiLTRjZDYtNDI4MS04OWIyLTM3NTU0MWQzYWE3OSIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJjVmFJZE1NckFpOGl2azN6YmFqL3dJMFFoUWc9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidWRoSUluWk5kaW1HZ1VGK2l4NzNMTGJxam9JPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6Ikg1SlJKVlJUIiwibWUiOnsiaWQiOiIyNTU2NzUyMzMyNDU6MThAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoizLZEzLZyzLZhzLZnzLZvzLZuzLbilojMtiDMtuKWh8y2IMy24paGzLYgzLYifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ0k3ZzJKb0dFT1hOaGJVR0dBVWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6InRVdEJ5Nk03SXZnNjExbXU2cnBDbHN0RS90UkJWUGdIN0k5ZVM2US81ejQ9IiwiYWNjb3VudFNpZ25hdHVyZSI6IitlWnE1L09oZjlhQjBUUldIRmdmV0tKbEFxSjFXOVMrd1A1eGZRY212L1VWM2dYWGRDQjZGREY0TERFL2ROZm5ObHYzL0pCa1hyWHdkdlczaGs1aUF3PT0iLCJkZXZpY2VTaWduYXR1cmUiOiJ2NFFmZlBwaGwvYi94MnBWQ0htZGtBOHlOekZ2dE04bk50MGdCdXFJb0txUDg2ZlJRalJyY0dOV3V1dmxRS1VqWHdvSTF3N3dsakZtQXlKMnh4VGxpUT09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjI1NTY3NTIzMzI0NToxOEBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJiVkxRY3VqT3lMNE90ZFpydXE2UXBiTFJQN1VRVlQ0Qit5UFhrdWtQK2MrIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzIxODUzNjgxLCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUJidSJ9":
     {
-      "description":"put your session ID, the code you received after pairing code",   
+      "description":"on"    
       "value":"",
       "required":true
       
     },
-    "OWNER_NAME":
+    "Antony":
     {
     
-    "desc": "Your Name",
-    "required": false,
-    "value": "𝐈𝐛𝐫𝐚𝐡𝐢𝐦 𝐀𝐝𝐚𝐦𝐬"
+    "desc": "Antony",
+    "required": true,
+    "value": "Antony Faustine "
   },
     "NUMERO_OWNER":
   {
     
-    "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
-    "required":false,
-    "value": "254739937062,254710772666"
+    "desc": "255675233245",
+    "required":true,
+    "value": "6666"
   },
     "WARN_COUNT":
   {
@@ -104,7 +104,7 @@
   },
   "ANTI_DELETE_MESSAGE" : {
     "description": "if you want to enable anti delete message put yes else put no",
-    "value": "no",
+    "value": "yes",
     "required": false
   }
   },
